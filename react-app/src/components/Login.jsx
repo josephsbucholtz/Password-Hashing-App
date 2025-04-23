@@ -15,7 +15,7 @@ const Login = () => {
                     appearance-none dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer" placeholder="Password"></input>
                     <label htmlFor="" className="absolute text-sm duration-300 transform -translate scale-75 top-3 -z-10 origin-[0]"></label>
                 </div>
-                <button type="submit" className="">Login</button>
+                <button type="submit" className="w-full mb-4 text-[18px] roundedbg-blue-500 py-2 hover:bg-blue-800 transition-colors duration-300">Login</button>
             </form>
         </div>
     </div>
