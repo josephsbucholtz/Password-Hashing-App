@@ -8,12 +8,14 @@ import os
 app = Flask(__name__)
 CORS(app)
 
+#Generate Salt
 def gen_salt(length):
     return ''.join(random.choices(string.ascii_letters + string.digits, length))
 
 def hashingFunction():
     return
 
+#Sign Up users by storing username and password in json file
 @app.route('/signup', methods=['POST'])
 def signup():
     data = request.get_json()
