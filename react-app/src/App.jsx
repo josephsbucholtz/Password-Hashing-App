@@ -4,7 +4,7 @@ import Signup from './components/SignUp'
 
 function App() {
   return (
-    <div className="items-center">
+    <div  className="items-center">
       <div className="flex items-center justify-center p-20">
         <Signup/>
       </div>
