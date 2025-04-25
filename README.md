@@ -4,3 +4,5 @@ Password Hashing App is a personal project to understand the concepts and fundam
 
 Users Sign Up using above and their hashed password is stored in a json file. Usually, it is store in a database, but I wanted to see the results
 
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/e3bd10a1-6b95-4c4c-b698-4d714461eb40" />
+
