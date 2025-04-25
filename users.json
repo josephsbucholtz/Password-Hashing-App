@@ -1,4 +1,14 @@
-{"username": "Hello", "password": "$2b$12$yM.ZpRgkzotqZK7Nhw.7muW.vFd6mYXhO2Fev3YWJ1w3awRvz0Ud6"}
-{"username": "Pear", "password": "$2b$12$bPTg8229feoGg6N1U8Cz6.RP3OBj7O0I7DTwYGYj7IDrRngiHBajm"}
-{"username": "John", "password": "$2b$12$DmXMCEL/NgKHX4Ql1jvwn.czmLzPMOTjje4hdZz8IbANKrmfzBsrG"}
-{"username": "Wolf", "password": "$2b$12$PwyKSIx3PJZG1/lqrhOTp.7kWaOIpKn.NcNywaTR.4ZnGFl5.bWaW"}
+[
+    {
+        "username": "Alice",
+        "password": "$2b$12$2kgV52GLKj8r9Nu8P0RHpOlD4ae4E30mWIc/ilXy6TKBFViMagKb."
+    },
+    {
+        "username": "Adam",
+        "password": "$2b$12$hvqBpBf9yqvSa8OT1QiPK.ytRKLePN7R5mDMZHYD4PkOhjaAyQO5q"
+    },
+    {
+        "username": "Eve",
+        "password": "$2b$12$b7fxDA6qfieNfghNFnjVzOqQwR/MQ93uPACImD2wbi2SWr2B7eqBG"
+    }
+]
