@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
 const Signup = () => {
-    const [formData, setFormData] = useState({ username: '', password: '' });
+  const [formData, setFormData] = useState({ username: '', password: '' });
     
-    const handleChange = e => {
+  const handleChange = e => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
   const handleSubmit = async e => {
     e.preventDefault();
-    const response = await fetch('http://localhost:5000/signup', {
+  const response = await fetch('http://localhost:5000/signup', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
